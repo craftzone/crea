@@ -1,0 +1,105 @@
+name: crea
+main: com.mgone.creatif.crea
+version: 2.0
+authors: [craftzone, mgone]
+depend: [ProtocolLib, Vault]
+database: true
+commands:
+  help:
+  aide:
+  plugin:
+  pl:
+  plugins:
+  hhh:
+  hvote:
+  memt:
+  memmax:
+  memfree:
+  uptimes:
+  icon:
+  creareload:
+  dvote:
+  qcm:
+  quitqcm:
+  pub:
+  pubadd:
+  stats:
+  statsh:
+  statsadd:
+  statsreset:
+  listv:
+  vote:
+  grief:
+permissions:
+    crea.*:
+        children:   
+    beacune.use:
+        default: op
+    chest.use:
+        default: op
+    trapchest.use:
+        default: op
+    enderchest.use:
+        default: op
+    four.use:
+        default: op
+    alambic.use:
+        default: op
+    dispenser.use:
+        default: op
+    dropper.use:
+        default: op
+    hooper.use:
+        default: op
+    jukebox.use:
+        default: op
+    enchant.use:
+        default: op
+    build.world:
+        default: op
+    build.plotworld2:
+        default: op
+    build.plotworld3:
+        default: op
+    build.pixelart:
+        default: op
+    bedrock.use:
+        default: op
+    monsteregg.use:
+        default: op
+    redstone.use:
+        default: op
+    raille.use:
+        default: op
+    drop.use:
+        default: op
+    protect.tab:
+        default: op
+    chat.color:
+        default: op
+    chat.k:
+        default: op
+    creatif.reload:
+        default: op
+    use.dvote:
+        default: op
+    warn.cheat:
+        default: op
+    remove.cheat:
+        default: op
+    warn.pub:
+        default: op
+    remove.pub:
+        default: op
+    use.plotworld2:
+        default: op
+    use.plotworld3:
+        default: op
+    use.pixelart:
+        default: op
+    stats.other:
+        default: op
+    crea.journuit:
+        default: op
+    crea.speed:
+        default: op
