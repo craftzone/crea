@@ -103,21 +103,21 @@ public class border implements org.bukkit.event.Listener {
 	    
 	    if (worldp.equals("pixelart")) {  
     		
-		    if (pX > 1500.0D) {
+		    if (pX > 2500.0D) {
 		    	p.teleport(p.getLocation().add(-10.0D, 0.0D, 0.0D));
 		        p.sendMessage("§4Vous avez dépasser la limite de la map");
 		    }
-		    if (pX < -1500.0D) {
+		    if (pX < -2500.0D) {
 		    	p.teleport(p.getLocation().add(10.0D, 0.0D, 0.0D));
 		        p.sendMessage("§4Vous avez dépasser la limite de la map");
 		    } 
 		    
 		    
-		    if (pZ > 1500.0D) {
+		    if (pZ > 2500.0D) {
 		    	p.teleport(p.getLocation().add(0.0D, 0.0D, -10.0D));
 		        p.sendMessage("§4Vous avez dépasser la limite de la map");
 		    }
-		    if (pZ < -1500.0D) {
+		    if (pZ < -2500.0D) {
 		    	p.teleport(p.getLocation().add(0.0D, 0.0D, 10.0D));
 		        p.sendMessage("§4Vous avez dépasser la limite de la map");
 		    }		
