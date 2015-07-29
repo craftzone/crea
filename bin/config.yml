@@ -1,0 +1,74 @@
+use-permissions: false
+#portails depuis plotworld
+wplotworld2: X,-58#70#11,-58#70#12,-58#70#13,-58#69#11,-58#69#12,-58#69#13,-58#68#11,-58#68#12,-58#68#13,-58#67#11,-58#67#12,-58#67#13,X
+wplotworld3: X,-46#70#13,-46#70#12,-46#70#11,-46#69#13,-46#69#12,-46#69#11,-46#68#13,-46#68#12,-46#68#11,-46#67#13,-46#67#12,-46#67#11,X
+wpixelart: X,-46#70#-11,-46#69#-11,-46#58#-11,-46#67#-11,-46#70#-12,-46#69#-12,-46#58#-12,-46#67#-12,-46#70#-13,-46#69#-13,-46#58#-13,-46#67#-13,X
+lobby: X,-58#70#-13,-58#70#-12,-58#70#-11,-58#69#-13,-58#69#-12,-58#69#-11,-58#68#-13,-58#68#-12,-58#68#-11,-58#67#-13,-58#67#-12,-58#67#-11,X
+#portails depuis les autres worls
+plotworld2: X,-9#68#-5,-9#68#-4,-9#68#-3,-9#67#-5,-9#67#-4,-9#67#-3,-9#66#-5,-9#66#-4,-9#66#-3,-9#65#-5,-9#65#-4,-9#65#-3,X
+plotworld3: X,78#68#69,78#67#69,78#66#69,79#68#69,79#67#69,79#66#69,X
+wspixelart: X,XXX,X
+#qcm spawn
+posqcm: -73 7 21 270 0
+#chat format
+message-format: '%prefix %player:%suffix %message'
+#spawns dans plotword
+splotworld2:
+  x: -7
+  y: 66
+  z: -3
+  p: 270
+splotworld3:
+  x: 79
+  y: 65
+  z: 79
+  p: 90
+spixelart:
+  x: 0
+  y: 6
+  z: 0
+  p: 0
+slobby:
+  x: -56
+  y: 67
+  z: -12
+  p: 270
+#spawns dans les autres worlds
+s2plotworld:
+  x: -56
+  y: 67
+  z: 12
+  p: 270
+s3plotworld:
+  x: -48
+  y: 67
+  z: 12
+  p: 90
+pixelartplotworld:
+  x: -48
+  y: 67
+  z: 12
+  p: 90
+#auto message et interval
+EnableAutoMessages: true
+Interval: 600
+messages:
+  0:
+    message: '&6=====================================================#&e[*] &dGrades, pet, déguisement... disponible sur CraftZone.fr &e[*]&f#   Pour plus d`informations Tapez /aide#&6====================================================='
+  1:
+    message: '&6=====================================================#&fNous sommes constamment à la recherche de staff#&fSite: &bCraftZone.fr &fTeamSpeak: &bts.CraftZone.fr#&6====================================================='
+#Bossbar message et interval
+EnableBossbars: true
+IntervalBossbar: 1200
+bossbars:
+  0:
+    bossbar: '&c<3 &d/vote &c<3  &bok* &apour soutenir votre serveur préféré &bok*'
+    duration: 10
+#title message et interval
+EnableTitles: true
+IntervalTitle: 1800
+titles:
+  0:
+    title: '&c<3 &d/vote &c<3'
+    subtitle: '&bok* &apour soutenir votre serveur préféré &bok*'
+    duration: 5
